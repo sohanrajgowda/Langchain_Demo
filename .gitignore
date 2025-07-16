@@ -1,0 +1,106 @@
+# ------------------------
+# Byte-compiled / cache
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# ------------------------
+# Virtual Environments
+# ------------------------
+venv/
+env/
+.venv/
+ENV/
+
+# ------------------------
+# Package files
+# ------------------------
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+
+# ------------------------
+# Logs and outputs
+# ------------------------
+*.log
+*.out
+*.bak
+
+# ------------------------
+# Jupyter/IPython
+# ------------------------
+.ipynb_checkpoints
+
+# ------------------------
+# IDEs and Editors
+# ------------------------
+.vscode/
+.idea/
+
+# ------------------------
+# OS files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Python tooling
+# ------------------------
+.mypy_cache/
+.dmypy.json
+.pyre/
+.cache/
+.coverage
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# ------------------------
+# dotenv / secrets
+# ------------------------
+.env
+.env.*
+*.env
+.secret
+*.json
+
+# ------------------------
+# LangChain specific
+# ------------------------
+langchain.db
+lc_cache/
+.chroma/
+.cache/
+
+# ------------------------
+# FAISS Vector Store
+# ------------------------
+faiss_index/
+faiss_store/
+*.faiss
+*.index
+*.idx
+*.bin
+
+# ------------------------
+# Chroma Vector Store
+# ------------------------
+chroma/
+index/
+chroma_index/
+chroma_db/
+*.sqlite3
+
+# ------------------------
+# Streamlit
+# ------------------------
+.streamlit/
+.streamlit/*.json
+.streamlit/secrets.toml
+.streamlit/config.toml
